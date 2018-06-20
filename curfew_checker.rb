@@ -6,4 +6,4 @@ def curfew(time)
   end
 end
 
-curfew(10)
+curfew(12)
