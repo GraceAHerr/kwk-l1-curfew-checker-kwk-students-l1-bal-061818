@@ -1,7 +1,9 @@
 def curfew(time)
   if time >= 11
-    puts "Its past curfew!"
+    puts "you are in trouble"
+  else time < 11
+    puts "You are not in trouble"
   end
 end
 
-curfew(11)
+curfew(10)
